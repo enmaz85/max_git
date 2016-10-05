@@ -3204,7 +3204,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bordercolor" : [ 1.0, 0.435294, 0.811765, 0.3 ],
 					"fgcolor" : [ 1.0, 0.435294, 0.811765, 0.8 ],
 					"floatoutput" : 1,
 					"id" : "obj-47",
@@ -4555,6 +4555,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 152.0, 349.5, 422.5, 349.5 ],
+					"source" : [ "obj-31", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-33", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -4579,6 +4589,16 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 152.0, 320.5, 200.0, 320.5 ],
+					"source" : [ "obj-31", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-82", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 152.0, 379.25, 187.0, 379.25 ],
 					"source" : [ "obj-31", 0 ]
 				}
 
