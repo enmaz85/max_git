@@ -29,11 +29,25 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "bpatcher",
+					"name" : "my_peakdetector.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 126.0, 371.0, 419.0, 260.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 7.0, 199.0, 419.0, 260.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-5",
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 119.0, 1021.0, 45.0, 45.0 ]
+					"patching_rect" : [ 108.0, 1291.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -45,9 +59,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 119.0, 665.0, 189.0, 337.0 ],
+					"patching_rect" : [ 111.0, 964.0, 189.0, 337.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 648.0, 199.0, 189.0, 337.0 ]
+					"presentation_rect" : [ 650.0, 390.0, 189.0, 337.0 ]
 				}
 
 			}
@@ -59,9 +73,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 126.0, 370.0, 650.0, 275.0 ],
+					"patching_rect" : [ 118.0, 669.0, 650.0, 275.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 199.0, 650.0, 275.0 ]
+					"presentation_rect" : [ 8.0, 456.0, 650.0, 275.0 ]
 				}
 
 			}
@@ -152,16 +166,17 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 1 ],
+					"destination" : [ "obj-6", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 1028.5, 359.5, 535.5, 359.5 ],
 					"source" : [ "obj-2", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
+					"destination" : [ "obj-6", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-2", 0 ]
@@ -219,6 +234,24 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-58", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-6", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}
@@ -287,6 +320,13 @@
 			}
 , 			{
 				"name" : "my_stutter.maxpat",
+				"bootpath" : "/Users/enniomazzon/Documents/Git/max_git/em01_b16",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "my_peakdetector.maxpat",
 				"bootpath" : "/Users/enniomazzon/Documents/Git/max_git/em01_b16",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
