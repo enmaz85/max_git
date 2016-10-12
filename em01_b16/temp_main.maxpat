@@ -8,7 +8,8 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ -1.0, 45.0, 1440.0, 780.0 ],
+		"rect" : [ 0.0, 45.0, 1440.0, 805.0 ],
+		"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,24 +29,6 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : 0.0,
-					"id" : "obj-10",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1116.0, -38.0, 150.0, 33.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 1003.0, -9.0, 150.0, 33.0 ],
-					"text" : "add button to randomize osc frequency"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"id" : "obj-8",
 					"maxclass" : "bpatcher",
@@ -69,7 +52,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 126.0, 371.0, 419.0, 260.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 911.0, 24.0, 419.0, 260.0 ]
+					"presentation_rect" : [ 921.0, 36.0, 417.0, 260.0 ]
 				}
 
 			}
@@ -93,7 +76,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 111.0, 964.0, 189.0, 337.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 647.0, 278.0, 189.0, 337.0 ]
+					"presentation_rect" : [ 657.0, 296.0, 189.0, 337.0 ]
 				}
 
 			}
@@ -107,7 +90,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 118.0, 669.0, 650.0, 275.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 279.0, 650.0, 275.0 ]
+					"presentation_rect" : [ 7.0, 296.0, 650.0, 276.0 ]
 				}
 
 			}
@@ -121,7 +104,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 126.0, 146.0, 912.0, 203.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 87.0, 912.0, 203.0 ]
+					"presentation_rect" : [ 7.0, 95.0, 914.0, 201.0 ]
 				}
 
 			}
