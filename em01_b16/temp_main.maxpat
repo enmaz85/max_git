@@ -38,7 +38,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 198.0, -152.0, 728.0, 248.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, -153.0, 728.0, 248.0 ]
+					"presentation_rect" : [ 7.0, -153.0, 914.0, 248.0 ]
 				}
 
 			}
@@ -52,7 +52,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 126.0, 371.0, 419.0, 260.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 921.0, 36.0, 417.0, 260.0 ]
+					"presentation_rect" : [ 921.0, 91.0, 417.0, 260.0 ]
 				}
 
 			}
