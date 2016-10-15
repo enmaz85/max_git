@@ -30,15 +30,34 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-7",
+					"linecount" : 15,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1048.0, 420.0, 150.0, 221.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 13,
+					"presentation_rect" : [ 1048.0, 420.0, 180.0, 194.0 ],
+					"text" : "TO DO:\n* progress bar on modulations\n\n* contact mic\n\n* presets?\n\n* file recorder\n\n*midi mapping\n\n* remove unused UI onbject to improve responsivness\n",
+					"textcolor" : [ 1.0, 0.0, 0.501961, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-8",
 					"maxclass" : "bpatcher",
 					"name" : "my_files_player.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 198.0, -152.0, 728.0, 248.0 ],
+					"patching_rect" : [ 126.0, -121.0, 728.0, 248.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, -153.0, 914.0, 248.0 ]
+					"presentation_rect" : [ 7.0, -167.0, 1209.0, 258.0 ]
 				}
 
 			}
