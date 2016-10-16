@@ -34,15 +34,15 @@
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-7",
-					"linecount" : 15,
+					"linecount" : 19,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1048.0, 420.0, 150.0, 221.0 ],
+					"patching_rect" : [ 1048.0, 420.0, 156.0, 261.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 13,
-					"presentation_rect" : [ 1048.0, 420.0, 180.0, 194.0 ],
-					"text" : "TO DO:\n* progress bar on modulations\n\n* contact mic\n\n* presets?\n\n* file recorder\n\n*midi mapping\n\n* remove unused UI onbject to improve responsivness\n",
+					"presentation_linecount" : 17,
+					"presentation_rect" : [ 1048.0, 420.0, 181.0, 234.0 ],
+					"text" : "TO DO:\n* progress bar on modulations\n\n* contact mic\n\n* presets?\n\n* file recorder\n\n*midi mapping\n\n* control Volca from Max via MIDI\n\n* build \"controller\" with springs and other objects - amplification via contact mic",
 					"textcolor" : [ 1.0, 0.0, 0.501961, 1.0 ]
 				}
 
@@ -93,7 +93,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 111.0, 964.0, 189.0, 337.0 ],
+					"patching_rect" : [ 118.0, 954.0, 189.0, 337.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 657.0, 296.0, 189.0, 337.0 ]
 				}
@@ -152,6 +152,7 @@
 					"destination" : [ "obj-4", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 758.5, 948.5, 297.5, 948.5 ],
 					"source" : [ "obj-3", 1 ]
 				}
 
