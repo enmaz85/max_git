@@ -34,15 +34,15 @@
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-7",
-					"linecount" : 19,
+					"linecount" : 17,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1048.0, 420.0, 156.0, 261.0 ],
+					"patching_rect" : [ 1048.0, 420.0, 156.0, 234.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 17,
-					"presentation_rect" : [ 1048.0, 420.0, 181.0, 234.0 ],
-					"text" : "TO DO:\n* progress bar on modulations\n\n* contact mic\n\n* presets?\n\n* file recorder\n\n*midi mapping\n\n* control Volca from Max via MIDI\n\n* build \"controller\" with springs and other objects - amplification via contact mic",
+					"presentation_linecount" : 14,
+					"presentation_rect" : [ 1048.0, 420.0, 238.0, 194.0 ],
+					"text" : "TO DO:\n\n* contact mic\n\n* presets?\n\n* file recorder\n\n*midi mapping\n\n* control Volca from Max via MIDI\n\n* build \"controller\" with springs and other objects - amplification via contact mic",
 					"textcolor" : [ 1.0, 0.0, 0.501961, 1.0 ]
 				}
 

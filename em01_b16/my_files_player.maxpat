@@ -30,6 +30,50 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"bordercolor" : [ 0.501961, 0.501961, 0.501961, 0.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hbgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"htextcolor" : [ 1.0, 0.435294, 0.811765, 1.0 ],
+					"htricolor" : [ 0.870588, 0.819608, 0.239216, 0.0 ],
+					"id" : "obj-186",
+					"maxclass" : "number",
+					"minimum" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 559.0, 913.5, 44.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 865.0, 24.5, 44.0, 18.0 ],
+					"textcolor" : [ 1.0, 0.435294, 0.811765, 1.0 ],
+					"triangle" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 0.0, 0.501961, 0.2 ],
+					"bordercolor" : [ 1.0, 0.435294, 0.811765, 0.0 ],
+					"contdata" : 1,
+					"id" : "obj-26",
+					"maxclass" : "multislider",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"orientation" : 0,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 800.5, 1106.0, 200.0, 100.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 806.330078, 23.665039, 102.669922, 19.334961 ],
+					"setminmax" : [ 0.0, 1000.0 ],
+					"slidercolor" : [ 0.4, 1.0, 1.0, 0.3 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-35",
@@ -1444,8 +1488,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 559.0, 880.5, 85.0, 20.0 ],
-					"text" : "loadmess 120"
+					"patching_rect" : [ 559.0, 880.5, 79.0, 20.0 ],
+					"text" : "loadmess 20"
 				}
 
 			}
@@ -1505,30 +1549,6 @@
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 559.0, 937.5, 34.0, 20.0 ],
 					"text" : "/ 60."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"bordercolor" : [ 0.501961, 0.501961, 0.501961, 0.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"hbgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"htextcolor" : [ 1.0, 0.435294, 0.811765, 1.0 ],
-					"htricolor" : [ 0.870588, 0.819608, 0.239216, 0.0 ],
-					"id" : "obj-186",
-					"maxclass" : "number",
-					"minimum" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "int", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 559.0, 913.5, 44.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 865.0, 24.5, 44.0, 18.0 ],
-					"textcolor" : [ 1.0, 0.435294, 0.811765, 1.0 ],
-					"triangle" : 0
 				}
 
 			}
@@ -3894,7 +3914,7 @@
 					"fontsize" : 10.0,
 					"framecolor" : [ 1.0, 0.435294, 0.811765, 1.0 ],
 					"id" : "obj-61",
-					"items" : [ "a1.wav", ",", "Detroit120.wav", ",", "loop2.wav", ",", "NL03_NL2016-01.aif", ",", "p1.wav", ",", "p2.wav", ",", "p3.wav", ",", "p4.wav", ",", "p5.wav", ",", "p6.wav", ",", "p7.wav", ",", "x1.wav" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3947,7 +3967,7 @@
 					"fontsize" : 10.0,
 					"framecolor" : [ 1.0, 0.435294, 0.811765, 1.0 ],
 					"id" : "obj-34",
-					"items" : [ "a1.wav", ",", "Detroit120.wav", ",", "loop2.wav", ",", "NL03_NL2016-01.aif", ",", "p1.wav", ",", "p2.wav", ",", "p3.wav", ",", "p4.wav", ",", "p5.wav", ",", "p6.wav", ",", "p7.wav", ",", "x1.wav" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -4000,7 +4020,7 @@
 					"fontsize" : 10.0,
 					"framecolor" : [ 1.0, 0.435294, 0.811765, 1.0 ],
 					"id" : "obj-18",
-					"items" : [ "a1.wav", ",", "Detroit120.wav", ",", "loop2.wav", ",", "NL03_NL2016-01.aif", ",", "p1.wav", ",", "p2.wav", ",", "p3.wav", ",", "p4.wav", ",", "p5.wav", ",", "p6.wav", ",", "p7.wav", ",", "x1.wav" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -4482,7 +4502,7 @@
 					"fontsize" : 10.0,
 					"framecolor" : [ 1.0, 0.435294, 0.811765, 1.0 ],
 					"id" : "obj-133",
-					"items" : [ "a1.wav", ",", "Detroit120.wav", ",", "loop2.wav", ",", "NL03_NL2016-01.aif", ",", "p1.wav", ",", "p2.wav", ",", "p3.wav", ",", "p4.wav", ",", "p5.wav", ",", "p6.wav", ",", "p7.wav", ",", "x1.wav" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -5811,6 +5831,16 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 568.5, 1083.25, 801.0, 1083.25 ],
+					"source" : [ "obj-195", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 568.5, 1072.25, 810.0, 1072.25 ],
 					"source" : [ "obj-195", 0 ]
 				}
 
