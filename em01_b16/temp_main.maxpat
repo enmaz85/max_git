@@ -30,6 +30,50 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 423.0, 1315.0, 20.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 919.0, 615.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-15",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 377.0, 1315.0, 37.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 873.0, 615.0, 37.0, 18.0 ],
+					"text" : "open"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 244.0, 1341.5, 71.0, 20.0 ],
+					"text" : "sfrecord~ 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
@@ -55,7 +99,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 126.0, -121.0, 728.0, 248.0 ],
+					"patching_rect" : [ 126.0, -136.0, 1135.0, 263.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, -167.0, 1209.0, 258.0 ]
 				}
@@ -81,7 +125,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 111.0, 1340.0, 45.0, 45.0 ]
+					"patching_rect" : [ 126.0, 1329.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -93,7 +137,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 118.0, 954.0, 189.0, 337.0 ],
+					"patching_rect" : [ 126.0, 956.0, 189.0, 337.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 657.0, 296.0, 189.0, 337.0 ]
 				}
@@ -107,7 +151,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 118.0, 669.0, 650.0, 275.0 ],
+					"patching_rect" : [ 126.0, 671.0, 650.0, 275.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 296.0, 650.0, 276.0 ]
 				}
@@ -129,6 +173,24 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 1 ],
 					"disabled" : 0,
@@ -152,7 +214,7 @@
 					"destination" : [ "obj-4", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 758.5, 948.5, 297.5, 948.5 ],
+					"midpoints" : [ 766.5, 954.5, 305.5, 954.5 ],
 					"source" : [ "obj-3", 1 ]
 				}
 
@@ -171,6 +233,7 @@
 					"destination" : [ "obj-5", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 305.5, 1314.0, 161.5, 1314.0 ],
 					"source" : [ "obj-4", 1 ]
 				}
 
@@ -186,9 +249,28 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-9", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-3", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 535.5, 649.5, 766.5, 649.5 ],
 					"source" : [ "obj-6", 1 ]
 				}
 
@@ -207,6 +289,7 @@
 					"destination" : [ "obj-2", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 1251.5, 136.0, 1028.5, 136.0 ],
 					"source" : [ "obj-8", 1 ]
 				}
 
@@ -289,6 +372,13 @@
 				"bootpath" : "/Users/enniomazzon/Documents/Git/max_git/em01_b16",
 				"patcherrelativepath" : ".",
 				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "randLH.maxpat",
+				"bootpath" : "/Applications/Max 6.1/patches/myPatches",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/patches/myPatches",
+				"type" : "JSON",
 				"implicit" : 1
 			}
  ]
